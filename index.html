@@ -6,17 +6,20 @@
    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
    <title>Quiz</title>
    <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/mediaQuery.css">
    <script type="module" src="./assets/js/main.js" defer></script>
 </head>
 <body>
-   <h1>quiz</h1>
+   <div class="container-h1">
+      <h1>quiz</h1>
+   </div>
    <div class="container">
-      <div class="question-container" container-question>
+      <div class="question-container">
          <span class="question-span" question>pergunta</span>
-         <span class="question-span-qtd" qtdspan>pergunta</span>
+         <span class="question-span-qtd" qtdspan>quantidade</span>
       </div>
       <div class="answers-container" container-answers></div>
-      <div class="controls-container" container-controls>
+      <div class="controls-container">
          <button class="button-next" next>Continuar</button>
          <button class="button-restart" restart>Tentar novamente</button>
       </div>

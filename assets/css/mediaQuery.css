@@ -1,0 +1,51 @@
+@media screen and (min-width: 480px) and (max-width: 768px) { /* TELA PEQUENA */
+
+   .container {
+      width: 27rem;
+      height: 25rem;
+      font-size: 30px;
+   }
+
+   .question-container {
+      height: 3.5rem;
+      padding: 15px;
+   }
+
+   .question-span {
+      font-size: 17px;
+   }
+
+   .question-span-qtd {
+      font-size: 20px;
+      padding-top: 15px;
+   }
+
+   .answers-container {
+      gap: 15px;
+      width: 100%;
+      padding-top: 3rem;
+   }
+
+   .button {
+      height: 40px;
+      font-size: 15px;
+   }
+
+   .controls-container {
+      top: 79%;
+   }
+
+   .button-next {
+      width: 10rem;
+      height: 3rem;
+      font-size: 15px;
+   }
+
+   .button-restart {
+      width: 12rem;
+      height: 3rem;
+      margin-bottom: 10rem;
+      font-size: 15px;
+   }
+}
+
