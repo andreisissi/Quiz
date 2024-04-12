@@ -12,7 +12,7 @@
    }
 
    .question-span {
-      font-size: 17px;
+      font-size: 18px;
    }
 
    .question-span-qtd {
@@ -27,12 +27,8 @@
    }
 
    .button {
-      height: 40px;
+      height: 2.5rem;
       font-size: 15px;
-   }
-
-   .controls-container {
-      top: 79%;
    }
 
    .button-next {
@@ -42,10 +38,115 @@
    }
 
    .button-restart {
-      width: 12rem;
-      height: 3rem;
-      margin-bottom: 10rem;
       font-size: 15px;
    }
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+
+   .container {
+      width: 45rem;
+      height: 27rem;
+      font-size: 30px;
+   }
+
+   .question-container {
+      height: 5rem;
+      padding: 15px;
+   }
+
+   .question-span {
+      font-size: 30px;
+      line-height: 1.8rem;
+   }
+
+   .question-span-qtd {
+      font-size: 20px;
+      padding-top: 18px;
+   }
+
+   .answers-container {
+      display: flex;
+      gap: 30px;
+      padding-top: 5rem;
+   }
+
+   .button {
+      width: 45%;
+      height: 3rem;
+      font-size: 20px;
+   }
+
+   .button-next {
+      width: 12rem;
+      height: 3rem;
+      font-size: 18px;
+      margin-top: 3rem;
+   }
+
+   .button-restart {
+      width: 15rem;
+      height: 4rem;
+      margin-bottom: 10rem;
+      font-size: 20px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+
+   .container-h1 {
+      margin-top: 4.3rem;
+   }
+
+   h1 {
+      font-size: 3.5rem;
+   }
+
+   .container {
+      width: 45rem;
+      height: 27rem;
+      font-size: 30px;
+      margin-top: 20px;
+   }
+
+   .question-container {
+      height: 5rem;
+      padding: 15px;
+   }
+
+   .question-span {
+      font-size: 30px;
+      line-height: 1.8rem;
+   }
+
+   .question-span-qtd {
+      font-size: 25px;
+      padding-top: 18px;
+   }
+
+   .answers-container {
+      display: flex;
+      gap: 30px;
+      padding-top: 5rem;
+   }
+
+   .button {
+      width: 45%;
+      height: 3rem;
+      font-size: 20px;
+   }
+
+   .button-next {
+      width: 10rem;
+      height: 3rem;
+      font-size: 20px;
+      margin-top: 3rem;
+   }
+
+   .button-restart {
+      width: 15rem;
+      height: 4rem;
+      margin-bottom: 10rem;
+      font-size: 20px;
+   }
+}
